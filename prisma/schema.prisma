@@ -19,8 +19,8 @@ model User {
   passwordHash String
   firstName    String?
   lastName     String?
-  Project      Project[]
-  Task         Task[]
+  projects     Project[]
+  tasks        Task[]
 }
 
 model Project {
