@@ -25,7 +25,7 @@ export default function Root() {
         <Meta />
         <Links />
       </head>
-      <body className="h-screen w-screen rainbow-mesh p-6">
+      <body className="h-screen w-screen rainbow-mesh p-2 sm:p-6">
         <Outlet />
         <ScrollRestoration />
         <Scripts />

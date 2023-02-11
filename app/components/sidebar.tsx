@@ -4,7 +4,7 @@ import { Card } from "./card";
 
 export function Sidebar() {
   return (
-    <Card className="h-full w-40 flex items-center flex-col justify-around flex-wrap">
+    <Card className="sm:h-full w-full sm:w-auto flex items-center flex-row sm:flex-col justify-around flex-wrap">
       <Link to="/">
         <Grid
           size={40}
