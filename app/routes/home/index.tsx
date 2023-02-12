@@ -32,10 +32,10 @@ function HomePage() {
   return (
     <div className="h-full overflow-y-auto w-full sm:pl-6 mt-6 sm:mt-0">
       <div className="h-full items-stretch justify-center min-h-[content]">
-        <div className="flex-1 grow flex">
+        <div className="flex">
           <Greetings user={user} />
         </div>
-        <div className="flex grow items-center flex-wrap mt-3 -m-3">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 -mx-3 mt-6">
           {projects.map((project: Project & { tasks: Task[] }) => (
             <div key={project.id} className="p-3">
               <Link to={`/project/${project.id}`}>

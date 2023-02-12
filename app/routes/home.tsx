@@ -11,7 +11,7 @@ export async function loader({ request }: LoaderArgs) {
 
 function HomeRoot() {
   return (
-    <GlassPane className="h-full w-full p-4 flex flex-col sm:flex-row items-center justify-center">
+    <GlassPane className="h-full w-full p-6 flex flex-col sm:flex-row items-center justify-center">
       <Sidebar />
       <Outlet />
     </GlassPane>
