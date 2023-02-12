@@ -55,8 +55,8 @@ model Task {
   ownerId String
   owner   User   @relation(fields: [ownerId], references: [id])
 
-  projectId String
-  project   Project @relation(fields: [projectId], references: [id])
+  projectId String?
+  project   Project? @relation(fields: [projectId], references: [id])
 
   status      TASK_STATUS @default(NOT_STARTED)
   name        String

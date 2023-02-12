@@ -13,8 +13,9 @@ export function Greetings({ user }: { user: Partial<User> }) {
           Check your daily tasks and schedule
         </h4>
       </div>
-      <div>
+      <div className="flex justify-between">
         <Button size="large">Today&apos;s Schedule</Button>
+        <Button intent="secondary">+ Task</Button>
       </div>
     </Card>
   );
