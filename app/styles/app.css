@@ -1161,6 +1161,10 @@ video {
     flex-direction: column;
   }
 
+  .sm\:overflow-y-auto {
+    overflow-y: auto;
+  }
+
   .sm\:p-4 {
     padding: 1rem;
   }

@@ -30,7 +30,7 @@ function HomePage() {
   const { projects, user, tasks } = useLoaderData();
 
   return (
-    <div className="h-full overflow-y-auto w-full sm:pl-6 mt-6 sm:mt-0">
+    <div className="h-full w-full mt-6 sm:mt-0">
       <div className="h-full items-stretch justify-center min-h-[content]">
         <div className="flex">
           <Greetings user={user} />
